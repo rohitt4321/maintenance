@@ -1,0 +1,33 @@
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 4.50rem !important;
+    color: #fff;
+   
+}
+#header{
+    background: rgb(27,7,70);
+background: linear-gradient(23deg, rgba(27,7,70,1) 0%, rgba(8,0,20,1) 100%);
+}
+.btn-2{
+    padding:15px 21px;
+    border:1px solid #c3c9ef ;
+    border-radius: 15px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 15px;
+ 
+    
+}
+.btn-2:hover{
+    background-color: #4a267f;
+    color: #fff;
+    text-decoration: none;
+}
+
+#contractions {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    
+}
