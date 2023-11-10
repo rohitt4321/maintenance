@@ -1,33 +1,82 @@
-h1 {
-    font-family: 'Inter', sans-serif;
-    font-family: 'Nunito', sans-serif;
-    font-size: 4.50rem !important;
-    color: #fff;
-   
-}
-#header{
-    background: rgb(27,7,70);
-background: linear-gradient(23deg, rgba(27,7,70,1) 0%, rgba(8,0,20,1) 100%);
-}
-.btn-2{
-    padding:15px 21px;
-    border:1px solid #c3c9ef ;
-    border-radius: 15px;
-    color: #fff;
-    display: inline-block;
-    margin-top: 15px;
- 
-    
-}
-.btn-2:hover{
-    background-color: #4a267f;
-    color: #fff;
-    text-decoration: none;
+#header {
+    background: #080D27;
+
 }
 
 #contractions {
-    display: flex;
-    align-items: center;
     height: 100vh;
-    
+    h3{
+        color: #fff;
+    }
+
+    .coming {
+        display: flex;
+        height: 250px;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-bottom: 20px;
+
+        h1 {
+            font-size: 3.50rem;
+            background: #ffffff;
+            background: linear-gradient(to bottom, #ffffff 0%, #ffffff00 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
+
+        }
+
+        p {
+            font-size: 1rem;
+            color: #fff;
+
+        }
+    }
+
+    .rollimg {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+
+        img {
+            width: 30%;
+            padding: 0px 15px;
+            position: relative;
+            z-index: 2;
+
+        }
+
+        .shadwo1 {
+            width: 16rem;
+            height: 5rem;
+            position: absolute;
+            filter: blur(2rem);
+            background-color: #19225F;
+            left: 55%;
+            top: 52%;
+            z-index: 1;
+        }
+
+        .shadwo2 {
+            width: 17rem;
+            height: 6rem;
+            position: absolute;
+            filter: blur(2rem);
+            background-color: #19225F;
+            left: 27%;
+            top: 46%;
+            z-index: 1;
+        }
+    }
+
+    .button {
+        a {
+            padding: 15px 20px;
+            text-decoration: none;
+            color: #fff;
+            border: 1px solid rgb(255, 255, 255);
+            border-radius: 15px;
+        }
+    }
+
 }
